@@ -1,21 +1,7 @@
-# my-project
+# 个人博客
+> 写这个的目的就是希望自己能够把平时看到过的或者使用过的知识点多做总结，也方便做对应知识点的扩充和更正，最重要的还是通过总结加深印象。
+- - -
+目录
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* 菜鸟教程
+    * [GIT-上传本地项目到github](https://github.com/fouber/blog/issues/10)
