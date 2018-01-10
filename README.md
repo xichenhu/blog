@@ -4,4 +4,4 @@
 目录
 
 * 菜鸟教程
-    * [GIT-上传本地项目到github](https://github.com/blog/20180110/01.md)
+    * [GIT-上传本地项目到github](https://github.com/four-leaf-clover/blog/blob/master/20180110/01.md)
