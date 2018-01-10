@@ -3,6 +3,5 @@
 
 目录
 
-* 小知识点
+* 知识点
     * [GIT-上传本地项目到github](https://github.com/four-leaf-clover/blog/blob/master/20180110/01.md)
-    * []()
