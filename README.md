@@ -4,4 +4,4 @@
 目录
 
 * 知识点
-    * [GIT-上传本地项目到github](https://github.com/Hxiaotong/blog/blob/master/git/01.md)
+    * [GIT-上传本地项目到github](https://github.com/Hxiaotong/blog/blob/master/git/上传本地项目到github上.md)
