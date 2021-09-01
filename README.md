@@ -5,3 +5,21 @@
 
 * 知识点
     * [GIT-上传本地项目到github](https://github.com/Hxiaotong/blog/blob/master/git/上传本地项目到github上.md)
+* 基础知识
+    * JavaScript
+    * CSS
+    * 浏览器与网络
+    * Typescript
+    * webpack
+    * 算法与数据结构
+
+* 框架
+    * vue
+    * React
+
+* 架构
+    * 设计模式
+    * 性能优化
+    * 手写题
+
+# 资料
