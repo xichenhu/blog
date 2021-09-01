@@ -7,7 +7,7 @@
     * [GIT-上传本地项目到github](https://github.com/Hxiaotong/blog/blob/master/git/上传本地项目到github上.md)
 * 基础知识
     * JavaScript
-    * [CSS]("./CSS/README.md")
+    * [CSS](./CSS/README.md)
     * 浏览器与网络
     * Typescript
     * webpack
