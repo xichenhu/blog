@@ -31,5 +31,5 @@
 * 阻止元素被浮动元素覆盖（两栏布局）
 
 # 资料
-* [10 分钟理解 BFC 原理]("https://zhuanlan.zhihu.com/p/25321647")
-* [什么是 BFC（Block Formatting Context）]("https://segmentfault.com/a/1190000016226880")
+* [10 分钟理解 BFC 原理](https://zhuanlan.zhihu.com/p/25321647)
+* [什么是 BFC（Block Formatting Context）](https://segmentfault.com/a/1190000016226880)
