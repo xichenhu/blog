@@ -8,11 +8,12 @@
 * 基础知识
     * [JavaScript](./JavaScript/README.md)
     * [CSS](./CSS/README.md)
-    * 浏览器与网络
+    * [浏览器与网络](./http/README.md)
     * Typescript
     * webpack
     * 算法与数据结构
     * [NodeJs](./node/README.md)
+    * [Git](./git/README.md)
 
 * 框架
     * vue
