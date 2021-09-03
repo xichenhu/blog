@@ -102,3 +102,7 @@ ___
 
 <font face="微软雅黑" color="red" size="6">字体及字体颜色和大小</font>
 <font color="#0000ff">字体颜色</font>
+
+## 插入图片——————————————————————
+![avatar](./example.png)
+<img src="./example.png" alt="图片替换文本" width="300" align="bottom" />
