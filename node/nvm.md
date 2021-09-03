@@ -1,6 +1,5 @@
 # 使用 nvm 管理多版本 node
-> 
-<font face="微软雅黑" color="red" size="3"> 卸载已安装到全局的 node/npm</font>
+### 卸载已安装到全局的 node/npm
 > ### 查看已经安装在全局的模块，以便删除这些全局模块后再按照不同的 node 版本重新进行全局安装
 > npm ls -g --depth=0 
 > ### 删除全局 node_modules 目录
