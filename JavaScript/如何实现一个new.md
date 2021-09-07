@@ -59,4 +59,4 @@ console.log(p.constructor === People)
 //等效于
 Array.prototype.slice.call( arguments )
 ```
-[Object.create](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+* [Object.create](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
