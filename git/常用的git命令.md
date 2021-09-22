@@ -3,3 +3,8 @@
 
 ## git remote prune origin
 > 清理远程上不存在的分支
+
+## git tag -l | xargs git tag -d
+> 可以先删除所有本地tag
+## git fetch --tags
+> 然后再拉取远程上的tag
