@@ -15,6 +15,8 @@
 * [AST抽象语法树](./AST抽象语法树.md)
 
 # ES6
+* [Symbol](./Symbol.md)
+* [Set](./Set.md)
 
 
 # 应用场景
