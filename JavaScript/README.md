@@ -13,10 +13,13 @@
 * [节流and防抖](./节流and防抖.md)
 * [如何实现一个 new](./如何实现一个new.md)
 * [AST抽象语法树](./AST抽象语法树.md)
+* [设计模式](./设计模式.md)
 
 # ES6
+* [let const var](./let-const-var.md)
 * [Symbol](./Symbol.md)
 * [Set](./Set.md)
+* [Reflect](./Reflect.md)
 
 
 # 应用场景
