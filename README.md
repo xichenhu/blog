@@ -8,6 +8,7 @@
 * 基础知识
     * [JavaScript](./JavaScript/README.md)
     * [CSS](./CSS/README.md)
+    * [HTML](./HTML/README.md)
     * [浏览器与网络](./http/README.md)
     * Typescript
     * webpack
