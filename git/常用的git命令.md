@@ -8,3 +8,8 @@
 > 可以先删除所有本地tag
 ## git fetch --tags
 > 然后再拉取远程上的tag
+
+## git push origin --delete branchName
+> 删除远程分支
+## git branch -D
+> 删除本地分支
