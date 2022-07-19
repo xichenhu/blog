@@ -4,7 +4,7 @@
 目录
 
 * 知识点
-    * [GIT-上传本地项目到github](./git/上传本地项目到github上.md)
+    * [GIT-上传本地项目到github](https://github.com/xichenhu/blog/blob/master/git/上传本地项目到github上.md)
 * 基础知识
     * [JavaScript](./JavaScript/README.md)
     * [CSS](./CSS/README.md)
