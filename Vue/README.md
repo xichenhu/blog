@@ -36,7 +36,7 @@
 * [Vuex有哪几种属性](./文件路径.md)
 
 ## Vue 3.0
-* [Vue3.0 有什么更新](./文件路径.md)
+* [Vue3.0 有什么更新](./Vue3.0有什么更新.md)
 * [defineProperty和proxy的区别](./文件路径.md)
 * [Vue3.0 为什么要用proxy](./文件路径.md)
 
