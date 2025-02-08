@@ -1,20 +1,28 @@
 # 常见的HTTP请求头和响应头
+## 通用头部
+* Request Url: 请求的web服务器地址
+* Request Method: 请求方式（Get、POST、OPTIONS、PUT、HEAD、DELETE、CONNECT、TRACE）
+* Status Code: 请求的返回状态码，如200代表成功
+* Remote Address: 请求的远程服务器地址（会转为IP）
+* Referrer Policy: (引用策略)用来监管哪些访问来源信息 (IE暂不支持)
+
+
 ## HTTP Request Header 常见的请求头：
 * Accept:浏览器能够处理的内容类型
 * Accept-Charset:浏览器能够显示的字符集
-* Accept-Encoding：浏览器能够处理的压缩编码
+* Accept-Encoding：浏览器能够处理的压缩编码。例如 `gzip, deflate`。
 * Accept-Language：浏览器当前设置的语言
 * Connection：浏览器与服务器之间连接的类型
 * Cookie：当前页面设置的任何Cookie
-* Host：发出请求的页面所在的域
+* Host：发出请求的页面所在的域。例如 `www.example.com:80`
 * Referer：发出请求的页面的URL
-* User-Agent：浏览器的用户代理字符串
+* User-Agent：浏览器的用户代理字符串。例如 `Mozilla/5.0 (Windows NT 10.0; Win64; x64)`。
 
 ## HTTP Responses Header 常见的响应头：
 * Date：表示消息发送的时间，时间的描述格式由rfc822定义
 * server:服务器名称
-* Connection：浏览器与服务器之间连接的类型
-* Cache-Control：控制HTTP缓存
+* Connection：浏览器与服务器之间连接的类型。例如 `keep-alive`（保持连接）或 `close`（关闭连接）。
+* Cache-Control：控制HTTP缓存。例如 `no-cache`（不使用缓存）或 `max-age=3600`（缓存有效期）。
 * content-type:表示后面的文档属于什么MIME类型
     * 常见的 Content-Type 属性值有以下四种:
         1. application/x-www-form-urlencoded：浏览器的原生 form 表单，如果不设置 enctype 属性，那么最终就会以 application/x-www-form-urlencoded 方式提交数据。该种方式提交的数据放在 body 里面，数据按照 key1=val1&key2=val2 的方式进行编码，key 和 val 都进行了 URL转码。
@@ -22,3 +30,28 @@
         3. application/json：服务器消息主体是序列化后的 JSON 字符串。
         4. text/xml：该种方式主要用来提交 XML 格式的数据。
 
+
+
+
+
+
+HTTP 请求报文由**请求行**、**请求头**和**请求体**（可选）组成。其中，**请求头**包含了客户端向服务器发送的附加信息，用于描述请求的上下文、客户端的能力或偏好等。以下是一些常见的请求头字段及其作用：
+
+---
+
+### **示例：一个完整的 HTTP 请求报文**
+```http
+GET /index.html HTTP/1.1
+Host: www.example.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: sessionId=abc123
+```
+
+---
+
+### **总结**
+HTTP 请求头提供了客户端和服务器之间通信的关键信息，帮助服务器理解请求的上下文并作出适当的响应。根据具体的应用场景，请求头的内容和数量会有所不同。
