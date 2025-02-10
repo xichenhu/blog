@@ -72,4 +72,6 @@ HTTP 请求头提供了客户端和服务器之间通信的关键信息，帮助
 一般来说，请求头部和响应头部是匹配分析的。  
 譬如，请求头部的Accept要和响应头部的Content-Type匹配，否则会报错  
 譬如，跨域请求时，请求头部的Origin要匹配响应头部的Access-Control-Allow-Origin，否则会报跨域错误  
-譬如，在使用缓存时，请求头部的If-Modified-Since、If-None-Match分别和响应头部的Last-Modified、ETag对应  
+譬如，在使用缓存时，请求头部的If-Modified-Since、If-None-Match分别和响应头部的Last-Modified、ETag对应   
+ 
+![avatar](./images/HTTP请求头.png)
