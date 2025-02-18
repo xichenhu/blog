@@ -26,4 +26,4 @@
 6. FIN：释放一个连接。
 
 
-[link: 参考资料]('https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc')
+[link: 参考资料](https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc)
